@@ -21,4 +21,4 @@ jobs:
         run: javac MathTest.java
 
       - name: Run Java test
-        run: java TestMath
+        run: java MathTest
