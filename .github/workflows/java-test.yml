@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '11'
-          distibution: 'adopt'
+          distribution: 'adopt'
 
       - name: Compile Test Code
         run: javac MathTest.java
